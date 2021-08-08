@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+}
+.container {
+    max-width: 45.5rem;
+    margin: auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+.header {
+    margin-top: 1rem;
+}
+.logo {
+    width: 11rem;
+    margin: 0 auto;
+}
+.login-form input {
+    width: 100%;
+    height: 4.5rem;
+    margin-bottom: .7rem;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .07);
+    border-bottom: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .4rem;
+    background: #f5f6f7;
+    font-size: 1.5rem;
+}
+.btn {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem 1.8rem;
+    border: none;
+    border-radius: .3rem;
+    text-shadow: 0 -.1rem 0 #333;
+}
+.login-btn {
+    width: 100%;
+    background: #1877f2!important;
+    border-bottom: .1rem solid rgba(0, 0, 0, .07);
+    margin: .5rem 0;
+}
+.recover-pass a{
+    color: #216fdb;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+.or {
+    margin: 1.5rem 0;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .8);
+    position: relative;
+}
+.or::before, .or::after {
+    content: "";
+    background: #ccd0d5;
+    height: .1rem;
+    width: calc(50% - 2rem);
+    position: absolute;
+    top: 50%;
+}
+.or::before {
+    left: 0;
+}
+.or::after {
+    right: 0;
+}
+.create-account-btn {
+    font-size: 1.3rem;
+    background: #00a400;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 10rem;
+    text-align: center;
+}
+.languages {
+    display: flex;
+    justify-content: space-around;
+}
+.languages-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.languages-item a {
+    color: #576b95;
+}
+.languages-item .active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+.languages-item i {
+    font-size: 2.5rem;
+}
+.info {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.info a {
+    padding: .5rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.copyright {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .7);
+}
